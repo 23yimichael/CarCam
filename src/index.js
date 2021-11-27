@@ -6,7 +6,7 @@ import TabNavigator from "./components/tab-navigator.js";
 import { readVideoCount } from "./functions/data.js";
 import { loadFonts } from "./functions/load-fonts.js";
 
-export default function App() {
+export default function Render() {
   const [loaded, setLoaded] = useState(false);
   const [videoCount, setVideoCount] = useState(0);
   const [uri, setUri] = useState(undefined);
