@@ -4,9 +4,9 @@ import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import Feather from "react-native-vector-icons/Feather";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 import SimpleLineIcons from "react-native-vector-icons/SimpleLineIcons";
-import Home from "../screens/Home.js";
-import Record from "../screens/Record.js";
-import Settings from "../screens/Settings.js";
+import Home from "../screens/home.js";
+import Record from "../screens/record.js";
+import Settings from "../screens/settings.js";
 import * as ScreenOrientation from "expo-screen-orientation";
 
 const Tab = createBottomTabNavigator();

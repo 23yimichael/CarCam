@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { ActivityIndicator } from "react-native";
 import { StatusBar } from "expo-status-bar";
-import Context from "./utils/Context.js";
-import TabNavigator from "./components/TabNavigator.js";
-import { readVideoCount } from "./functions/Data.js";
-import { loadFonts } from "./functions/LoadFonts.js";
+import Context from "./utils/context.js";
+import TabNavigator from "./components/tab-navigator.js";
+import { readVideoCount } from "./functions/data.js";
+import { loadFonts } from "./functions/load-fonts.js";
 
-export default function Render() {
+export default function App() {
   const [loaded, setLoaded] = useState(false);
   const [videoCount, setVideoCount] = useState(0);
   const [uri, setUri] = useState(undefined);

@@ -8,11 +8,11 @@ import {
   Alert,
 } from "react-native";
 import { Video } from "expo-av";
-import Context from "../utils/Context.js";
+import Context from "../utils/context.js";
 import FontAwesome5 from "react-native-vector-icons/FontAwesome5";
 import * as MediaLibrary from "expo-media-library";
 import { format, parseISO } from "date-fns";
-import { deleteVideo } from "../functions/Data.js";
+import { deleteVideo } from "../functions/data.js";
 
 export default function ViewVideo({ navigation }) {
   const { uri, setUri, videos, setVideos, videoCount, setVideoCount, d } =

@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import { format, parseISO } from "date-fns";
-import Context from "../utils/Context.js";
+import Context from "../utils/context.js";
 
 const Item = ({ onPress, date, thumbnail, size, duration }) => (
   <TouchableOpacity style={styles.item} onPress={onPress}>

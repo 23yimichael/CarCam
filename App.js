@@ -1,6 +1,6 @@
 import React from "react";
-import Render from "./src/Render.js";
+import App from "./src/index.js";
 
 export default function App() {
-  return <Render />;
+  return <App />;
 }
